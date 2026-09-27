@@ -1,10 +1,1 @@
-# AI Summarizer
-
-Turn long content into clear, useful summaries in seconds.
-
-MERN + AI application using React, Express, MongoDB/Mongoose, OpenAI and Vercel.
-
-## Setup
-npm install && npm run dev
-
-Configure OPENAI_API_KEY and optionally MONGODB_URI. Never commit secrets.
+# AI Summarizer\n\nMERN + AI content summarization workspace with multiple summary styles.\n\n## Features\n- Balanced, Executive, Study and Bullet Brief modes\n- Short, Medium and Long output depth\n- Reading-time and word metrics\n- MongoDB persistence for generated summaries\n- Server-side AI integration\n- Responsive Vercel-ready UI\n\n## Environment\nOPENAI_API_KEY=\nOPENAI_MODEL=gpt-4o-mini\nMONGODB_URI=\n\nImport into Vercel, add variables and deploy.

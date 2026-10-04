@@ -47,3 +47,9 @@ body:after{background:repeating-linear-gradient(0deg,transparent 0 34px,#caff8a0
 .nav nav button:hover{background:#b9ff3b15!important;color:#d9ff9a!important}
 .navActions{gap:5px!important}.ghost{border-radius:999px!important}.primary{border-radius:999px!important;padding:10px 18px!important}
 
+
+
+/* NAV FINAL — SUMMARIZER: connected pill rail */
+.nav nav{display:flex!important;gap:0!important;padding:4px!important;border:1px solid #a8e84a40!important;border-radius:999px!important;background:#0d160de8!important}
+.nav nav button{padding:8px 16px!important;border:0!important;border-radius:999px!important;font-family:"Plus Jakarta Sans"!important;font-size:9px!important}
+.nav nav button:hover{background:#b9ff3b1a!important;color:#dfffad!important;transform:none!important}

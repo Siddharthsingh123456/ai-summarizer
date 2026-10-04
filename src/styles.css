@@ -65,3 +65,13 @@ body:after{background:repeating-linear-gradient(0deg,transparent 0 34px,#caff8a0
 .fields textarea{min-height:330px!important;border-radius:22px!important;background:#071007!important;border-color:#b9ff3b22!important}
 .result{border-radius:30px 30px 12px 30px!important}.result pre{font-family:"Instrument Sans"!important;font-size:13px!important;line-height:1.9!important;color:#dfffc0!important}
 .primary{background:linear-gradient(135deg,#e7ffb5,#a8ed48,#36d89b)!important;border-radius:999px!important}
+
+
+/* FINAL SYSTEM — SUMMARIZER / ORGANIC CTA + FORMS + FOOTER */
+button.primary{border:1px solid #d9ff9b!important;border-radius:999px!important;background:linear-gradient(100deg,#efffc7,#a8ed48,#39d99b)!important;color:#10200c!important;font:800 10px "Plus Jakarta Sans"!important;box-shadow:0 12px 32px #8cff3a30!important;transition:.35s!important}
+button.primary:hover{transform:translateY(-3px) scale(1.02)!important;box-shadow:0 18px 42px #8cff3a4d!important}
+input,textarea,select{border:1px solid #b9ff3b28!important;border-radius:18px!important;background:#081008!important;color:#eaffd6!important;font-family:"Instrument Sans"!important}
+input:focus,textarea:focus,select:focus{outline:none!important;border-color:#b9ff3b6b!important;box-shadow:0 0 0 4px #b9ff3b0c,0 0 28px #8cff3a12!important}
+.passwordField{display:flex!important;gap:7px!important}.passwordToggle{border:1px solid #b9ff3b2b!important;border-radius:999px!important;background:#101b10!important;color:#c8ff91!important}
+footer{max-width:1100px!important;margin:78px auto 0!important;padding:18px 22px!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:25px!important;flex-wrap:wrap!important;border:1px solid #b9ff3b2b!important;border-radius:999px!important;background:#0b150de8!important;box-shadow:0 15px 50px #5dff2910!important}
+footer b{font:800 13px "Plus Jakarta Sans"!important;color:#dfffad!important}footer span{font:500 8px "Instrument Sans"!important;color:#76936e!important}footer span:last-child{color:#a9e980!important}

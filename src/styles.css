@@ -37,3 +37,13 @@ body:after{background:repeating-linear-gradient(0deg,transparent 0 34px,#caff8a0
 .orb:after{content:"";position:absolute;width:65%;height:24px;left:17%;top:50%;border-top:2px solid #efffcf55!important;border-radius:50%!important;transform:rotate(8deg)!important;opacity:1!important}
 @keyframes organicBlob{0%,100%{transform:rotate(-5deg) translateY(0)}50%{transform:rotate(4deg) translateY(-14px) skewX(-2deg)}}@keyframes summaryLines{50%{transform:translateY(-50%) translateX(-10px) scaleY(1.12)}}
 .cards article:hover,.featureGrid article:hover,.pricing article:hover{transform:translateY(-7px)!important;border-radius:28px!important}
+
+
+/* NAV V3 — SUMMARIZER FLOATING CAPSULE */
+.nav{height:64px!important;top:18px!important;margin:0 auto!important;width:min(980px,calc(100% - 36px));border:1px solid #b9ff3b35!important;border-radius:999px!important;background:#0a120de8!important;box-shadow:0 16px 60px #78ff3520!important}
+.logo span{width:36px!important;height:36px!important;border-radius:50%!important}
+.nav nav{border:0!important;background:transparent!important;padding:0!important;gap:1px!important}
+.nav nav button{border-radius:999px!important;padding:8px 12px!important;font-size:9px!important}
+.nav nav button:hover{background:#b9ff3b15!important;color:#d9ff9a!important}
+.navActions{gap:5px!important}.ghost{border-radius:999px!important}.primary{border-radius:999px!important;padding:10px 18px!important}
+

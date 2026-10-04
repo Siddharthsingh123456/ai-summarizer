@@ -53,3 +53,15 @@ body:after{background:repeating-linear-gradient(0deg,transparent 0 34px,#caff8a0
 .nav nav{display:flex!important;gap:0!important;padding:4px!important;border:1px solid #a8e84a40!important;border-radius:999px!important;background:#0d160de8!important}
 .nav nav button{padding:8px 16px!important;border:0!important;border-radius:999px!important;font-family:"Plus Jakarta Sans"!important;font-size:9px!important}
 .nav nav button:hover{background:#b9ff3b1a!important;color:#dfffad!important;transform:none!important}
+
+
+/* POST-LOGIN V4 — SUMMARIZATION FLOW */
+.workspace{min-height:calc(100vh - 64px);padding:36px clamp(16px,5vw,70px) 82px;background:linear-gradient(135deg,#071008,#0b130b 55%,#07110d)}
+.workspaceHead{max-width:1350px!important;padding:18px 24px!important;border:1px solid #b9ff3b2b!important;border-radius:999px!important;background:#0d180fe8!important;box-shadow:0 18px 55px #58ff2b16!important}
+.workspaceHead h1{font-family:"Plus Jakarta Sans"!important;font-size:40px!important}
+.workGrid{max-width:1350px!important;grid-template-columns:1fr 1.15fr!important;gap:18px!important}
+.tool,.result{border:1px solid #b9ff3b2b!important;border-radius:30px!important;background:linear-gradient(145deg,#101b11ed,#091009f2)!important;box-shadow:0 25px 70px #0007!important}
+.tool{padding:25px!important}.tool h2{font-family:"Plus Jakarta Sans"!important}
+.fields textarea{min-height:330px!important;border-radius:22px!important;background:#071007!important;border-color:#b9ff3b22!important}
+.result{border-radius:30px 30px 12px 30px!important}.result pre{font-family:"Instrument Sans"!important;font-size:13px!important;line-height:1.9!important;color:#dfffc0!important}
+.primary{background:linear-gradient(135deg,#e7ffb5,#a8ed48,#36d89b)!important;border-radius:999px!important}

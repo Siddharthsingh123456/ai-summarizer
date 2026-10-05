@@ -113,3 +113,19 @@ h1{background:linear-gradient(120deg,#fff 15%,color-mix(in srgb,var(--ai-accent)
 @keyframes particles{from{transform:translate3d(0,0,0)}to{transform:translate3d(35px,-70px,0)}}
 @media(max-width:700px){.nav{top:6px;margin:6px 10px;border-radius:15px}.ai-grid{background-size:48px 48px}.orb{filter:blur(70px);opacity:.16}.tool,.result{border-radius:18px!important}.themeToggle{width:36px;height:36px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}.scrollReveal{opacity:1;transform:none}}
+
+
+
+/* SIGNATURE THEME — CLARITY ENGINE / DEEP TEAL + MINT */
+:root{--brand:#2dd4bf;--brand2:#a7f3d0;--hot:#38bdf8}
+body{background:radial-gradient(circle at 12% 12%,#2dd4bf20,transparent 27%),radial-gradient(circle at 88% 25%,#38bdf81a,transparent 25%),linear-gradient(135deg,#031211,#061d1c 56%,#06151d)!important}
+body:before{background:radial-gradient(circle at 18% 20%,#2dd4bf2a,transparent 25%),radial-gradient(circle at 80% 45%,#38bdf821,transparent 28%)!important}
+.nav{background:#041614df!important;border-color:#2dd4bf30!important;box-shadow:0 20px 70px #0009,0 0 35px #2dd4bf10!important}
+.logo span,.footerLogo span{background:linear-gradient(135deg,#a7f3d0,#2dd4bf,#38bdf8)!important;color:#03201c!important}
+.primary{background:linear-gradient(135deg,#a7f3d0,#2dd4bf 55%,#38bdf8)!important;color:#03201c!important;box-shadow:0 14px 40px #2dd4bf2e!important}
+.eyebrow,.featureGrid article span,.pricing article>span{color:#5eead4!important}
+.hero h1{background:linear-gradient(100deg,#f3fffc,#99f6e4 50%,#7dd3fc)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.cards article,.featureGrid article,.pricing article,.authCard,.tool,.result{background:linear-gradient(145deg,#092522dc,#051715ec)!important;border-color:#2dd4bf24!important}
+.cards article:hover,.featureGrid article:hover,.pricing article:hover,.tool:hover,.result:hover{border-color:#2dd4bf62!important;box-shadow:0 30px 85px #0009,0 0 42px #2dd4bf15!important}
+.workspace{background:radial-gradient(circle at 80% 10%,#38bdf812,transparent 25%),transparent!important}
+footer.premiumFooter{background:linear-gradient(180deg,#061c1b,#03100f)!important}
